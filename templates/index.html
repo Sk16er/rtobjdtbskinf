@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real-Time Object Detection</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #1e1e2f;
+      margin: 0;
+      padding: 0;
+      color: white;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    h1 {
+      color: #00c9a7;
+      margin-top: 20px;
+      font-size: 2.5rem;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+    }
+
+    img {
+      border-radius: 15px;
+      border: 5px solid #00c9a7;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      max-width: 90%;
+      height: auto;
+    }
+
+    #footer {
+      margin-top: 20px;
+      font-size: 1rem;
+      color: #ccc;
+    }
+
+    a {
+      color: #00c9a7;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>🔎 Real-Time Object Detection with YOLOv8</h1>
+  <div class="container">
+    <img src="{{ url_for('video_feed') }}" alt="Object Detection Video Feed" />
+  </div>
+  <div id="footer">
+    Made with ❤️ by <a href="https://github.com/sk16er" target="_blank">Shushank</a>
+  </div>
+</body>
+
+</html>
