@@ -1,4 +1,4 @@
-# [RTOBJDTBSKINF](https://github.com/Sk16er/rtobjdtbskinf), with direct links to relevant files and resources.
+# [RTOBJDTBSKINF](https://github.com/Sk16er/rtobjdtbskinf), REAL TIME OBJECT DETECTION BY SHUSHANK IN FLASK
 
 
 
